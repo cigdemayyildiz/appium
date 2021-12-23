@@ -51,7 +51,6 @@ public class Locators {
         Assert.assertEquals("ONE SHOT ALARM", oneShotAlarmButtonText);
     }
 
-
     @Test
     public void multipleElementsTest(){
         AndroidDriver<AndroidElement> driver = getAndroidDriver();
