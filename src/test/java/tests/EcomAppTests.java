@@ -14,5 +14,4 @@ public class EcomAppTests {
         EcomAppHomePage ecomAppHomePage = new EcomAppHomePage(driver);
         ecomAppHomePage.login("cigdem");
     }
-
 }
