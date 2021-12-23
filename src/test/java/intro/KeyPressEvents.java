@@ -32,8 +32,5 @@ public class KeyPressEvents {
 
         driver.pressKey(new KeyEvent().withKey(AndroidKey.CALENDAR));
         driver.pressKey(new KeyEvent().withKey(AndroidKey.BACK));
-
-
-
     }
 }
