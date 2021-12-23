@@ -28,6 +28,5 @@ public class InstallApp {
         AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(serverUrl, desiredCapabilities);
         AndroidBatteryInfo batteryInfo = driver.getBatteryInfo();
         System.out.println(batteryInfo.getState().name());
-
     }
 }
