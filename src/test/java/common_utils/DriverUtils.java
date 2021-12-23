@@ -36,6 +36,7 @@ public class DriverUtils {
         return driver;
     }
 
+
     public static AndroidDriver<AndroidElement> getAndroidDriver(){
 
         File apkFile = new File("src/test/resources/apks/ApiDemos-debug-newVersion.apk");
@@ -56,10 +57,12 @@ public class DriverUtils {
         return driver;
     }
 
+
     public static void tap(AndroidDriver<AndroidElement> driver, AndroidElement targetElement){
         TouchAction touchAction = new TouchAction(driver);
         touchAction.tap(TapOptions.tapOptions().withElement(ElementOption.element(targetElement))).perform();
     }
+
 
     public static void longPress(AndroidDriver<AndroidElement> driver, AndroidElement targetElement){
         TouchAction touchAction = new TouchAction(driver);
