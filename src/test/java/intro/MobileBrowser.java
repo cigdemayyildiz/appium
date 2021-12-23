@@ -36,5 +36,4 @@ public class MobileBrowser {
         driver.get("https://google.com");
         driver.findElement(By.name("q")).sendKeys("cigdem", Keys.RETURN);
     }
-
 }
