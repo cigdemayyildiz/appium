@@ -29,7 +29,5 @@ public class ErrorMessage {
         toastMessage = driver.findElement(By.xpath("//android.widget.Toast[text()='Please enter your name']"));
 
         Assert.assertEquals("Please enter your name", toastMessage.getAttribute("name"));
-
-
     }
 }
