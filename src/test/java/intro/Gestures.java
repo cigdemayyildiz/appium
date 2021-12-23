@@ -6,7 +6,6 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.TapOptions;
 import io.appium.java_client.touch.offset.ElementOption;
-import org.aspectj.weaver.ast.And;
 import org.junit.Test;
 
 import java.time.Duration;
@@ -56,6 +55,5 @@ public class Gestures {
 
         AndroidElement listButton =
                 driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Lists\"))");
-
     }
 }
