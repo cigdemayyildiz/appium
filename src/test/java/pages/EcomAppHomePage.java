@@ -23,5 +23,4 @@ public class EcomAppHomePage {
         nameField.sendKeys(name);
         letsShopButton.click();
     }
-
 }
