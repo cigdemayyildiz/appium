@@ -26,7 +26,5 @@ public class ConnectToDevice {
         System.out.println(batteryInfo.getState().name());
         System.out.println(driver.getDeviceTime());
         System.out.println(driver.getStatus());
-
-
     }
 }
